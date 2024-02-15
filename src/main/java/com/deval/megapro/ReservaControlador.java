@@ -4,6 +4,7 @@ import com.deval.megapro.aplicacion.manejador.ManejadorCrearReserva;
 import com.deval.megapro.aplicacion.manejador.ManejadorObtenerReserva;
 import com.deval.megapro.dominio.modelo.Reserva;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
