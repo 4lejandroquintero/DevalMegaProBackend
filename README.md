@@ -54,7 +54,7 @@ Crear una API tipo REST la cual permita llevar a cabo las siguientes funcionalid
   3. Si en el campo **tipoUsuario** llega un valor diferente a los permitidos, deberá retornar un un error HTTP 400 con el siguiente JSON
        ```json
            {
-             "mensaje" : "Tipo de usuario no permitido en la biblioteca"
+             "mensaje" : "Tipo de usuario no permitido para realizar reservas"
            }
        ```
 
